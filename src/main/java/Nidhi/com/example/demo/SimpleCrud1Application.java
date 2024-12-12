@@ -1,0 +1,15 @@
+package Nidhi.com.example.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
+@SpringBootApplication
+@EntityScan(basePackages = "Nidhi.com.example.demo")
+public class SimpleCrud1Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SimpleCrud1Application.class, args);
+	}
+
+}
